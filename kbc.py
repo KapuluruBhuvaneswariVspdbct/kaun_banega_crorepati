@@ -49,7 +49,7 @@ for question in questions.keys():
              print(f"🙏🙏🙏YOU ARE QUITTING THE GAME , FINALLY YOU WON {total_money}🙏🙏🙏\n")
     else:
         print(f"😞😞😞SORRY , YOU ARE WRONG,😞😞😞\n")
-        print("🙏🙏🙏  YOU WON RUPEES {total_money} , THANK YOU FOR PARTICIPATING IN KBC🙏🙏🙏\n")
+        print(f"🙏🙏🙏  YOU WON RUPEES {total_money} , THANK YOU FOR PARTICIPATING IN KBC🙏🙏🙏\n")
         break
     money = money + 1000
     question_number = question_number +1 
