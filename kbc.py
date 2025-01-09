@@ -47,6 +47,7 @@ for question in questions.keys():
         conti = input("TYPE 1 TO MOVE TO NEXT QUESTION OR TYPE 0 TO QUIT\n")
         if conti == 0:
              print(f"🙏🙏🙏YOU ARE QUITTING THE GAME , FINALLY YOU WON {total_money}🙏🙏🙏\n")
+             break
     else:
         print(f"😞😞😞SORRY , YOU ARE WRONG,😞😞😞\n")
         print(f"🙏🙏🙏  YOU WON RUPEES {total_money} , THANK YOU FOR PARTICIPATING IN KBC🙏🙏🙏\n")
