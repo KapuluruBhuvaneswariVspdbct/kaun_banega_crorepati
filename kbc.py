@@ -42,7 +42,7 @@ for question in questions.keys():
     if selected_option == answer[question_number]:
         print(f"👏👏👏WONDERFUL ! YOU ARE ABSOLUTELY CORRECT , YOU WON {money} RUPEES👏👏👏\n")
         pygame.mixer.music.play()
-        time.sleep(2)
+        time.sleep(3)
         pygame.mixer.music.stop()
         conti = input("TYPE 1 TO MOVE TO NEXT QUESTION OR TYPE 0 TO QUIT\n")
         if conti == 0:
